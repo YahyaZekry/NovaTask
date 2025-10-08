@@ -71,8 +71,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 **Yahya Zekry**
 - GitHub: [@YahyaZekry](https://github.com/YahyaZekry)
 
-## 🚀 Deploy
-
-Deploy to Vercel with one click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YahyaZekry/novatask)
