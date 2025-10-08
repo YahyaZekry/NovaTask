@@ -47,7 +47,9 @@ A modern, futuristic todo list application built with Next.js, featuring a sleek
 
 ## 📱 Screenshots
 
-*Open [http://localhost:3000](http://localhost:3000) to see the live application*
+🎉 **[Live Demo](https://novatask89.vercel.app/)** - Try NovaTask in your browser!
+
+*Run locally: Open [http://localhost:3000](http://localhost:3000) after `npm run dev`*
 
 ## 📦 Build
 
