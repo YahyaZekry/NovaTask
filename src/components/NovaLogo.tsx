@@ -3,15 +3,16 @@
 import React from "react";
 
 export const NovaLogo: React.FC<{ className?: string }> = ({ className = "" }) => (
-  <div className={`flex items-center gap-3 ${className}`}>
-    <div className="relative flex-shrink-0">
+  <div className={`flex items-center gap-2 sm:gap-3 button-hover-enhanced focus-enhanced keyboard-enhanced accessibility-enhanced mobile-enhanced desktop-enhanced performance-optimized p-2 rounded-lg ${className}`} role="img" aria-label="NovaTask - Professional Todo Management">
+    <div className="relative flex-shrink-0" aria-hidden="true">
       <svg
-        width="48"
-        height="48"
+        width="32"
+        height="32"
         viewBox="0 0 48 48"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="animate-float"
+        className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 animate-float"
+        focusable="false"
       >
         {/* Outer ring */}
         <circle
@@ -57,8 +58,8 @@ export const NovaLogo: React.FC<{ className?: string }> = ({ className = "" }) =
     </div>
 
     <div className="flex flex-col">
-      <h1 className="text-3xl font-bold gradient-text leading-tight">NovaTask</h1>
-      <p className="text-sm text-purple-200 leading-tight">Professional Todo Management</p>
+      <h1 className="text-responsive-2xl font-bold gradient-text leading-tight link-hover-enhanced">NovaTask</h1>
+      <p className="text-responsive-xs text-purple-200 leading-tight">Professional Todo Management</p>
     </div>
   </div>
 );
